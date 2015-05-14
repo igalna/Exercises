@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
-public class LambdaExpression {
+public class LambdaExpressions {
     
     public static void main(String[] args) {
         String[] strings = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"};
         
-        LambdaExpression le = new LambdaExpression();
+        LambdaExpressions le = new LambdaExpressions();
         
         le.printStrings(strings);
         le.shortestFirst(strings);
